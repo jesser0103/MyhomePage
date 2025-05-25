@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasser Souissi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">JS</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-header">
+                    <div class="profile-photo">
+                        <img src="profile.jpg" alt="Jasser Souissi">
+                    </div>
+                    <h1 class="animate-text">Jasser <span>Souissi</span></h1>
+                </div>
+                <h2 class="animate-text-delay">Industrial Computer Engineering Student</h2>
+                <p class="animate-text-delay-2">Motivated first-year student at ENET'Com Sfax, seeking a summer internship to gain hands-on experience in programming and embedded systems.</p>
+                <div class="hero-buttons animate-text-delay-3">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="#about" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-shape"></div>
+        </section>
+
+        <!-- About/Contact Section -->
+        <section id="about" class="about">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-container">
+                <div class="about-info">
+                    <p>I am a passionate Industrial Computer Engineering student with a keen interest in programming and embedded systems. I am constantly learning and expanding my skills in various programming languages and technologies.</p>
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <ul>
+                            <li class="contact-item phone-item">
+                                <div class="contact-icon">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/5585/5585856.png" alt="Phone">
+                                </div>
+                                <span>23986414</span>
+                            </li>
+                            <li class="contact-item email-item">
+                                <div class="contact-icon">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" alt="Email">
+                                </div>
+                                <span>jasser.souissi.741@gmail.com</span>
+                            </li>
+                            <li class="contact-item github-item">
+                                <div class="contact-icon">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+                                </div>
+                                <span>jasser.souissi.741@gmail.com</span>
+                            </li>
+                            <li class="contact-item location-item">
+                                <div class="contact-icon">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2838/2838912.png" alt="Location">
+                                </div>
+                                <span>Sakiet zit, Sfax</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="profile-initial">JS</div>
+                            <h3>Jasser Souissi</h3>
+                            <p>Industrial Computer Engineering Student</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Let's Connect</h3>
+                            <div class="social-icons">
+                                <a href="mailto:jasser.souissi.741@gmail.com"><i class="fas fa-envelope"></i></a>
+                                <a href="https://github.com/"><i class="fab fa-github"></i></a>
+                                <a href="tel:23986414"><i class="fas fa-phone"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+            <h2 class="section-title">My <span>Education</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>GII Student (Étudiant en Génie Informatique Industriel)</h3>
+                        <h4>ENET'Com Sfax</h4>
+                        <p class="timeline-date">2024-2025</p>
+                        <p>Studying Industrial Computer Engineering with a focus on programming and embedded systems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>Java, Spring Boot</p>
+                            <p>Beginner/Learning</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="40%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>Python</p>
+                            <p>Intermediate</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="65%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>C</p>
+                            <p>Intermediate</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="60%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Technologies & Tools</h3>
+                    <div class="skill-icons">
+                        <div class="skill-icon">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                            <span>C</span>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="fas fa-leaf"></i>
+                            <span>Spring</span>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Flutter</span>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                            <span>Databases</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Weather App</h3>
+                        <div class="project-tags">
+                            <span>Web</span>
+                            <span>API</span>
+                        </div>
+                        <p>A weather application that provides real-time weather information.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Bank Management System</h3>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Database</span>
+                        </div>
+                        <p>A comprehensive bank management system developed using Java.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Automatic Number Plate Recognition</h3>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>EasyOCR</span>
+                            <span>OpenCV</span>
+                        </div>
+                        <p>A system that automatically recognizes and processes vehicle number plates.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Chess Game</h3>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Game</span>
+                        </div>
+                        <p>A chess game implementation with graphical interface developed in Java.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Smart Shutter</h3>
+                        <div class="project-tags">
+                            <span>C</span>
+                            <span>Flutter</span>
+                            <span>IoT</span>
+                        </div>
+                        <p>An IoT project for controlling smart shutters using C and Flutter.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section id="languages" class="languages">
+            <h2 class="section-title">My <span>Languages</span></h2>
+            <div class="languages-container">
+                <div class="language-card">
+                    <div class="language-icon">
+                        <i class="fas fa-flag-usa"></i>
+                    </div>
+                    <h3>English</h3>
+                    <div class="language-level">
+                        <div class="level-dot active"></div>
+                        <div class="level-dot active"></div>
+                        <div class="level-dot active"></div>
+                        <div class="level-dot"></div>
+                        <div class="level-dot"></div>
+                    </div>
+                    <p>Intermediate</p>
+                </div>
+                <div class="language-card">
+                    <div class="language-icon">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <h3>Français</h3>
+                    <div class="language-level">
+                        <div class="level-dot active"></div>
+                        <div class="level-dot active"></div>
+                        <div class="level-dot active"></div>
+                        <div class="level-dot active"></div>
+                        <div class="level-dot active"></div>
+                    </div>
+                    <p>Native/Fluent</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Jasser Souissi</h3>
+                <p>Industrial Computer Engineering Student</p>
+                <p>ENET'Com Sfax</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Me</h3>
+                <p><i class="fas fa-envelope"></i> jasser.souissi.741@gmail.com</p>
+                <p><i class="fas fa-phone"></i> 23986414</p>
+                <p><i class="fas fa-map-marker-alt"></i> Sakiet zit, Sfax</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Jasser Souissi. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
